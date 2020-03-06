@@ -1,8 +1,8 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
 html {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .jk-slider {
@@ -116,8 +116,7 @@ footer ul.social li:hover a i {
     margin-top: -10px;
 }
 
-footer ul.social li a,
-footer ul.quick-links li a {
+footer ul.social li a, footer ul.quick-links li a {
     color: #c2b588;
 }
 
@@ -149,6 +148,10 @@ footer ul.quick-links li:hover a i {
 .contentSection {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.footer-link:hover {
+    color: #fff;
 }
 
 @media (max-width:767px) {
